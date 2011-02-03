@@ -1395,7 +1395,7 @@ var JSLINT = (function () {
 
     function error(m, t, a, b, c, d) {
         var w = warning(m, t, a, b, c, d);
-        quit(bundle.stopping, w.line, w.character);
+//        quit(bundle.stopping, w.line, w.character);
     }
 
     function error_at(m, l, ch, a, b, c, d) {
